@@ -8,7 +8,7 @@ $(function() {
   }
   function setColor() {
     let num = generateRandomNumber(1,4);
-    let block_index = generateRandomNumber(1,1001);
+    let block_index = generateRandomNumber(0,1001);
     if (num === 1) {
       color = '#FF00FF';
     }
